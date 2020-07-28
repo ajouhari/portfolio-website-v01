@@ -327,7 +327,7 @@ header .row-listed-navigation {
     position: fixed;
     display: flex;
     justify-content: space-between;
-    width: 1250px;
+    width: 1190px;
     height: 50px;
     top: 0;
     left: 50%;
@@ -350,7 +350,7 @@ header .row-listed-navigation .row-menu {
 }
 
 header .row-listed-navigation .row-menu li a {
-    color: #e7e7e7;
+    color: #fbfbfb;
     text-decoration: none;
     opacity: 0.87;
     padding: 8px 10px;
@@ -389,7 +389,7 @@ header .top-navigation .burger-container #burger .bar {
     height: 1px;
     display: block;
     position: relative;
-    background: #e7e7e7;
+    background: #fbfbfb;
     transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 }
 
@@ -452,7 +452,7 @@ header .top-navigation ul.menu li.menu-item:nth-child(8) {
 header .top-navigation ul.menu li.menu-item a {
     display: block;
     position: relative;
-    color: #e7e7e7;
+    color: #fbfbfb;
     font-weight: 100;
     text-decoration: none;
     line-height: 2.35;
@@ -471,7 +471,7 @@ header .top-navigation ul.menu li.address {
     border-bottom: none;
     display: block;
     position: relative;
-    color: #e7e7e7;
+    color: #fbfbfb;
     font-weight: 100;
     text-decoration: none;
     line-height: 2.35;
@@ -547,7 +547,7 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
     }
 
     header .row-listed-navigation {
-        width: 100px;
+        width: 105px;
     }
 
     header .row-listed-navigation img {
@@ -567,13 +567,13 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
     header .row-listed-navigation {
-        width: 900px;
+        width: 840px;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     header .row-listed-navigation {
-        width: 1050px;
+        width: 990px;
     }
 }
 
@@ -586,7 +586,7 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 800px;
+    height: 600px;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
@@ -594,7 +594,7 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 }
 
 .banner.short {
-    height: 600px;
+    height: 350px;
 }
 
 .banner .text {
@@ -612,29 +612,30 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 }
 
 .banner .text h1 {
-    color: #e7e7e7;
+    color: #fbfbfb;
     font-size: 75px;
     font-weight: bold;
     background-color: #1f1f1f;
+    border-radius: 10px;
 }
 
 .banner .text .text-type {
-    color: #e7e7e7;
+    color: #fbfbfb;
     font-size: 40px;
     font-weight: 400;
-    border-right: 2px solid #e7e7e7;
+    border-right: 2px solid #fbfbfb;
     padding-right: 5px;
     background-color: #1f1f1f;
 }
 
 .banner .text .buttons button {
-    border: 2px solid #e7e7e7;
-    color: #e7e7e7;
+    border: 2px solid #fbfbfb;
+    color: #fbfbfb;
     margin: 70px 30px 10px 30px;
 }
 
 .banner .text .buttons button span {
-    color: #e7e7e7;
+    color: #fbfbfb;
 }
 
 /* Animation */
@@ -652,48 +653,48 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
     position: absolute;
     display: block;
     list-style: none;
-    color: #e7e7e7;
+    color: #fbfbfb;
     font-size: 40px;
     visibility: hidden;
 }
 
 .letters li:nth-child(1) {
     left: 15%;
-    animation: letters600 7s linear infinite;
+    animation: letters350 5s linear infinite;
     animation-delay: 4s;
 }
 
 .letters li:nth-child(2) {
     left: 30%;
-    animation: letters600 7s linear infinite;
+    animation: letters350 5s linear infinite;
     animation-delay: 2s;
 }
 
 .letters li:nth-child(3) {
     left: 45%;
-    animation: letters600 7s linear infinite;
+    animation: letters350 5s linear infinite;
     animation-delay: 0s;
 }
 
 .letters li:nth-child(4) {
     left: 60%;
-    animation: letters600 7s linear infinite;
+    animation: letters350 5s linear infinite;
     animation-delay: 3s;
 }
 
 .letters li:nth-child(5) {
     left: 75%;
-    animation: letters600 7s linear infinite;
+    animation: letters350 5s linear infinite;
     animation-delay: 5s;
 }
 
 .letters li:nth-child(6) {
     left: 90%;
-    animation: letters600 7s linear infinite;
+    animation: letters350 5s linear infinite;
     animation-delay: 1s;
 }
 
-@keyframes letters600 {
+@keyframes letters350 {
     0% {
         transform: translateY(0) rotate(0deg);
         opacity: 0.5;
@@ -705,24 +706,7 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
     }
 
     100% {
-        transform: translateY(500px) rotate(360deg);
-        opacity: 0;
-    }
-}
-
-@keyframes letters400 {
-    0% {
-        transform: translateY(0) rotate(0deg);
-        opacity: 0.5;
-        visibility: visible;
-    }
-
-    50% {
-        opacity: 0.25;
-    }
-
-    100% {
-        transform: translateY(350px) rotate(360deg);
+        transform: translateY(300px) rotate(360deg);
         opacity: 0;
     }
 }
@@ -739,7 +723,24 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
     }
 
     100% {
-        transform: translateY(200px) rotate(360deg);
+        transform: translateY(200px) rotate(270deg);
+        opacity: 0;
+    }
+}
+
+@keyframes letters150 {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.5;
+        visibility: visible;
+    }
+
+    50% {
+        opacity: 0.25;
+    }
+
+    100% {
+        transform: translateY(100px) rotate(180deg);
         opacity: 0;
     }
 }
@@ -748,11 +749,11 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
 @media only screen and (max-width: 479px) {
     .banner {
-        height: 350px;
+        height: 300px;
     }
 
     .banner.short {
-        height: 250px;
+        height: 150px;
     }
 
     .banner .text h1 {
@@ -768,63 +769,45 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
     }
 
     .letters li:nth-child(1) {
-        left: 20%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 4s;
+        left: 15%;
+        animation: letters150 3s linear infinite;
+        animation-delay: 3s;
     }
 
     .letters li:nth-child(2) {
         left: 30%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 2s;
+        animation: letters150 3s linear infinite;
+        animation-delay: 4s;
     }
 
     .letters li:nth-child(3) {
-        left: 40%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 0s;
+        left: 45%;
+        animation: letters150 3s linear infinite;
+        animation-delay: 1s;
     }
 
     .letters li:nth-child(4) {
-        left: 50%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 3s;
+        left: 60%;
+        animation: letters150 3s linear infinite;
+        animation-delay: 2s;
     }
 
     .letters li:nth-child(5) {
-        left: 60%;
-        animation: letters250 7s linear infinite;
+        left: 75%;
+        animation: letters150 3s linear infinite;
         animation-delay: 5s;
     }
 
     .letters li:nth-child(6) {
-        left: 70%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 1s;
-    }
-
-    .letters li:nth-child(7) {
-        left: 80%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 6s;
-    }
-
-    .letters li:nth-child(8) {
-        left: 65%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 7s;
-    }
-
-    .letters li:nth-child(9) {
-        left: 35%;
-        animation: letters250 7s linear infinite;
-        animation-delay: 8s;
+        left: 90%;
+        animation: letters150 3s linear infinite;
+        animation-delay: 0s;
     }
 }
 
 @media only screen and (min-width: 479px) and (max-width: 767px) {
     .banner {
-        height: 450px;
+        height: 350px;
     }
 
     .banner.short {
@@ -846,37 +829,37 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
     .letters li:nth-child(1) {
         left: 15%;
-        animation: letters250 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 4s;
     }
 
     .letters li:nth-child(2) {
         left: 30%;
-        animation: letters250 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 2s;
     }
 
     .letters li:nth-child(3) {
         left: 45%;
-        animation: letters250 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 0s;
     }
 
     .letters li:nth-child(4) {
         left: 60%;
-        animation: letters250 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 3s;
     }
 
     .letters li:nth-child(5) {
         left: 75%;
-        animation: letters250 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 5s;
     }
 
     .letters li:nth-child(6) {
         left: 90%;
-        animation: letters250 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 1s;
     }
 
@@ -884,19 +867,78 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     .banner {
-        height: 600px;
+        height: 350px;
     }
 
     .banner.short {
-        height: 400px;
+        height: 250px;
     }
 
     .banner .text h1 {
-        font-size: 60px;
+        font-size: 48px;
     }
 
     .banner .text .text-type {
-        font-size: 32px;
+        font-size: 24px;
+    }
+
+    .banner .text .buttons button {
+        margin: 40px 20px 10px 20px;
+    }
+
+    .letters li:nth-child(1) {
+        left: 15%;
+        animation: letters250 4s linear infinite;
+        animation-delay: 4s;
+    }
+
+    .letters li:nth-child(2) {
+        left: 30%;
+        animation: letters250 4s linear infinite;
+        animation-delay: 2s;
+    }
+
+    .letters li:nth-child(3) {
+        left: 45%;
+        animation: letters250 4s linear infinite;
+        animation-delay: 0s;
+    }
+
+    .letters li:nth-child(4) {
+        left: 60%;
+        animation: letters250 4s linear infinite;
+        animation-delay: 3s;
+    }
+
+    .letters li:nth-child(5) {
+        left: 75%;
+        animation: letters250 4s linear infinite;
+        animation-delay: 5s;
+    }
+
+    .letters li:nth-child(6) {
+        left: 90%;
+        animation: letters250 4s linear infinite;
+        animation-delay: 1s;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+
+    .banner {
+        height: 400px;
+    }
+
+    .banner.short {
+        height: 250px;
+    }
+
+    .banner .text h1 {
+        font-size: 55px;
+    }
+
+    .banner .text .text-type {
+        font-size: 30px;
     }
 
     .banner .text .buttons button {
@@ -905,49 +947,49 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
     .letters li:nth-child(1) {
         left: 15%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 4s;
     }
 
     .letters li:nth-child(2) {
         left: 30%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 2s;
     }
 
     .letters li:nth-child(3) {
         left: 45%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 0s;
     }
 
     .letters li:nth-child(4) {
         left: 60%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 3s;
     }
 
     .letters li:nth-child(5) {
         left: 75%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 5s;
     }
 
     .letters li:nth-child(6) {
         left: 90%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 1s;
     }
+
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1200px) {
-
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .banner {
-        height: 600px;
+        height: 500px;
     }
 
     .banner.short {
-        height: 400px;
+        height: 250px;
     }
 
     .banner .text h1 {
@@ -960,49 +1002,38 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
     .letters li:nth-child(1) {
         left: 15%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 4s;
     }
 
     .letters li:nth-child(2) {
         left: 30%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 2s;
     }
 
     .letters li:nth-child(3) {
         left: 45%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 0s;
     }
 
     .letters li:nth-child(4) {
         left: 60%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 3s;
     }
 
     .letters li:nth-child(5) {
         left: 75%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 5s;
     }
 
     .letters li:nth-child(6) {
         left: 90%;
-        animation: letters400 7s linear infinite;
+        animation: letters250 4s linear infinite;
         animation-delay: 1s;
-    }
-
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .banner .text h1 {
-        font-size: 70px;
-    }
-
-    .banner .text .text-type {
-        font-size: 32px;
     }
 }
 
@@ -1012,7 +1043,7 @@ header .top-navigation.menu-opened ul.menu li.menu-item:nth-child(7) {
 
 main article.main {
     width: 1250px;
-    margin: 100px auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     background-color: #e7e7e7;
@@ -1028,7 +1059,7 @@ main article.main .info,
 main article.main .icon {
     height: auto;
     width: 50%;
-    padding: 80px 30px;
+    padding: 50px 30px;
 }
 
 main article.main .icon {
@@ -1066,16 +1097,15 @@ main .contact-form textarea {
     border: none;
     padding: 10px 20px;
     border-radius: 6px;
-    width: 80%;
+    width: 85%;
     font-family: Ubuntu, sans-serif;
     line-height: 2;
     color: #1f1f1f;
-    font-size: 18px;
 }
 
 main .contact-form textarea {
     min-height: 100px;
-    height: 100px;
+    height: 140px;
     resize: vertical;
 }
 
@@ -1109,13 +1139,14 @@ main .contact-form button span {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-bottom: 15px;
     }
 
     main article.main .info,
     main article.main .icon {
         width: 100%;
         height: auto;
-        padding: 30px 5vw;
+        padding: 5px 5vw;
     }
 
     main article.main .icon {
@@ -1144,13 +1175,14 @@ main .contact-form button span {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-bottom: 15px;
     }
 
     main article.main .info,
     main article.main .icon {
         width: 100%;
         height: auto;
-        padding: 30px 5vw;
+        padding: 10px 5vw;
     }
 
     main article.main .icon {
@@ -1174,17 +1206,18 @@ main .contact-form button span {
 @media only screen and (min-width: 767px) and (max-width: 991px) {
     main article.main {
         width: 90vw;
-        margin: 40px auto;
+        margin: 30px auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-bottom: 15px;
     }
 
     main article.main .info,
     main article.main .icon {
         width: 100%;
         height: auto;
-        padding: 30px 5vw;
+        padding: 20px 5vw;
     }
 
     main article.main .icon {
@@ -1208,15 +1241,17 @@ main .contact-form button span {
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
     main article.main {
         width: 900px;
-        margin: 60px auto;
+        margin: 40px auto;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 15px;
     }
 
     main article.main .info,
     main article.main .icon {
         width: 420px;
         height: auto;
+        padding: 30px;
     }
 
     main article.main .icon img.web-page {
@@ -1229,7 +1264,7 @@ main .contact-form button span {
 
     main article.main {
         width: 1050px;
-        margin: 80px auto;
+        margin: 40px auto;
         display: flex;
         justify-content: space-between;
     }
@@ -1238,6 +1273,7 @@ main .contact-form button span {
     main article.main .icon {
         width: 475px;
         height: auto;
+        padding: 30px;
     }
 
     main article.main .icon img {
@@ -1263,12 +1299,12 @@ main .game-description {
 }
 
 main .game {
-    margin-top: 100px;
+    margin-top: 50px;
     flex-direction: column;
 }
 
 main article.game-description {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 main article.game-description .credits,
@@ -1356,11 +1392,11 @@ main .game .title {
     }
 
     main .game {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     main article.game-description {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 
@@ -1372,11 +1408,11 @@ main .game .title {
     }
 
     main .game {
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     main article.game-description {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1398,11 +1434,11 @@ main .game .title {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 
     main .game {
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     main article.game-description {
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
 }
 
@@ -1416,12 +1452,12 @@ footer {
 
 footer h2,
 footer p {
-    color: #e7e7e7;
+    color: #fbfbfb;
 }
 
 footer article {
-    width: 1250px;
-    padding: 70px 0;
+    width: 1190px;
+    padding: 40px 0;
     margin: auto auto;
 }
 
@@ -1439,7 +1475,7 @@ footer p {
 }
 
 footer a {
-    color: #e7e7e7;
+    color: #fbfbfb;
     text-decoration: none;
 }
 
@@ -1468,7 +1504,7 @@ footer .navigation nav li {
 }
 
 footer .navigation nav li a {
-    color: #e7e7e7;
+    color: #fbfbfb;
 }
 
 /* Contact */
@@ -1479,7 +1515,7 @@ footer .contact {
 
 /* Copyright */
 footer .copyright {
-    width: 1250px;
+    width: 1190px;
     margin: auto;
     color: #1f1f1f;
     opacity: 1;
@@ -1488,8 +1524,8 @@ footer .copyright {
 
 footer .bottom-hr hr {
     width: 100vw;
-    color: #e7e7e7;
-    opacity: 0.6;
+    color: #fbfbfb;
+    opacity: 0.87;
 }
 
 /* Adjusting For Screen Size */
@@ -1497,7 +1533,7 @@ footer .bottom-hr hr {
 @media only screen and (max-width: 479px) {
     footer article {
         width: 80vw;
-        padding: 30px 0;
+        padding: 20px 0;
         flex-direction: column;
         flex-wrap: wrap;
     }
@@ -1534,7 +1570,7 @@ footer .bottom-hr hr {
 
     footer article {
         width: 80vw;
-        padding: 50px 0;
+        padding: 20px 0;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -1563,7 +1599,7 @@ footer .bottom-hr hr {
 
     /* Copyright */
     footer .copyright {
-        width: 70vw;
+        width: 80vw;
     }
 }
 
@@ -1571,7 +1607,7 @@ footer .bottom-hr hr {
 
     footer article {
         width: 80vw;
-        padding: 50px 0;
+        padding: 30px 0;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -1606,8 +1642,8 @@ footer .bottom-hr hr {
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
     footer article {
-        width: 900px;
-        padding: 50px 0;
+        width: 840px;
+        padding: 30px 0;
     }
 
     /* Subcontainers */
@@ -1631,14 +1667,14 @@ footer .bottom-hr hr {
 
     /* Copyright */
     footer .copyright {
-        width: 900px;
+        width: 840px;
     }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     footer article {
-        width: 1050px;
-        padding: 50px 0;
+        width: 990px;
+        padding: 30px 0;
     }
 
     /* Subcontainers */
@@ -1662,6 +1698,6 @@ footer .bottom-hr hr {
 
     /* Copyright */
     footer .copyright {
-        width: 1050px;
+        width: 990px;
     }
 }
