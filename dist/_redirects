@@ -1,5 +1,5 @@
-/               /index.html
-/about          /pages/about.html
-/algorithms     /pages/algorithms.html
-/web-design     /pages/web-design.html
-/stumble        /pages/stumble.html
+/               ./index.html
+/about          ./about.html
+/algorithms     ./algorithms.html
+/web-design     ./web-design.html
+/stumble        ./stumble.html
