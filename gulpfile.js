@@ -1,5 +1,4 @@
 const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
 const concat = require('gulp-concat');
 const terser = require('gulp-terser');
 const sourcemaps = require('gulp-sourcemaps');
@@ -11,9 +10,6 @@ const jsPath = 'assets/js/*.js';
 const cssPath = 'assets/css/*.css';
 function htmlTask() {
     return src('pages/*.html').pipe(gulp.dest('dist'));
-}
-function imgTask() {
-    return src('resources/images/*/*').pipe(gulp.dest('dist/images'));
 }
 function jsTask() {
     return src(jsPath)
@@ -35,7 +31,6 @@ function watchTask() {
     watch([cssPath, jsPath], { interval: 1000 }, parallel(cssTask, jsTask));
 }
 exports.htmlTask = htmlTask;
-exports.imgTask = imgTask;
 exports.jsTask = jsTask;
 exports.cssTask = cssTask;
 exports.default = series(parallel(jsTask, cssTask), watchTask);
