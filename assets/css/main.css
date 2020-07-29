@@ -1164,6 +1164,7 @@ main .contact-form button span {
     main article.main .icon img.web-page {
         height: auto;
         width: 80vw;
+        padding-top: 20px;
     }
 }
 
@@ -1200,6 +1201,7 @@ main .contact-form button span {
     main article.main .icon img.web-page {
         height: auto;
         width: 320px;
+        padding-top: 20px;
     }
 }
 
@@ -1235,6 +1237,7 @@ main .contact-form button span {
     main article.main .icon img.web-page {
         height: auto;
         width: 320px;
+        padding-top: 20px;
     }
 }
 
