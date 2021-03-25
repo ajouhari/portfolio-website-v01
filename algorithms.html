@@ -1,1 +1,172 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Abdulrahman Jouhari Algorithms"><meta name="keywords" content="Abdulrahman Jouhari, Algorithms"><meta name="author" content="Abdulrahman Jouhari"><title>Algorithms - AJouhari</title><link rel="icon" type="image/x-icon" href="https://resources.ajouhari.com/images/logos/logo-main.png" /><link rel="stylesheet" href="./assets/css/style.css" type="text/css"></head><body> <header><div class="top-navigation"><div class="burger-container"><div id="burger"><div class="bar topBar"></div><div class="bar btmBar"></div></div></div><ul class="menu"><li class="menu-item"><a href="/">Home</a></li><li class="menu-item"><a href="/about">About</a></li><li class="menu-item"><a href="/algorithms">Algorithms</a></li><li class="menu-item"><a href="/web-design">Web Design</a></li><li class="menu-item"><a href="/stumble">Games</a></li><div class="contact"><li class="menu-item address">Contact:</li><li class="menu-item address">Inquires: info&#64;ajouhari.com</li><li class="menu-item address">Support: support&#64;ajouhari.com</li></div></ul></div><div class="row-listed-navigation"> <a href="/"><img src="https://resources.ajouhari.com/images/logos/logo-white.png" alt="ajouhari logo"></a><ul class="row-menu"><li class=""><a href="/">Home</a></li><li class=""><a href="/about">About</a></li><li class=""><a href="/algorithms">Algorithms</a></li><li class=""><a href="/web-design">Web Design</a></li><li class=""><a href="/stumble">Games</a></li></ul></div> </header> <main> <section class="banner short"> <article class="text short"><h1>Algorithms</h1> </article><div class="letters-animation"><ul class="letters"><li>a</li><li>l</li><li>g</li><li>o</li><li>r</li><li>i</li></ul></div> </section> <article class="main hidden"><div class="icon"> <img src="https://resources.ajouhari.com/images/icons/gears.svg" alt="three gears" height="300px" width="300px"></div><div class="info"><h1>General algorithms</h1><p>There's a whole host of simple tasks that can be done more efficiently by algorithms, saving people much time and effort. Here I have documented a wide array of algorithms, of varying complexity and purposes. <br><br> Most of the algorithms displayed are in Python; however, moving forward, many of the algorithms will be written in C++ as it has a runtime advantage. Keeping best practices in mind, I always aim to write my code to be simple, well-documented, and with the fastest runtime possible.</p> <br> <a class="blue-link" href="https://github.com/ajouhari/algorithms/tree/master/python-general"><span>View code in GitHub</span>></a></div> </article> <article class="main inverted hidden"><div class="icon"> <img src="https://resources.ajouhari.com/images/icons/nodes.svg" alt="interconnected nodes flowgraph" height="300px" width="300px"></div><div class="info"><h1>Search algorithms</h1><p>Search algorithms have two primary function: to find if a path exists between two locations, and if so, to find the shortest path between them. Here I will code and review multiple search algorithms, from a brute-force method, to a well-designed a-star search algorithm. <br><br> As trivial as they may seem looking from the outside, the inner working of a search algorithm is a complex and highly important mechanism of the internet. I try my best to understand and then explain the multiple ways to implement it and the advantages that each may serve.</p> <br> <a class="blue-link" href="https://github.com/ajouhari/algorithms/tree/master/search-algorithms"><span>View code in GitHub</span>></a></div> </article> <article class="main hidden"><div class="icon"> <img src="https://resources.ajouhari.com/images/icons/sorted-bars.svg" alt="sorted-bars" height="300px" width="300px"></div><div class="info"><h1>Sort algorithms</h1><p>From databases to e-commerce sites, sorting engines play a cruical role that makes a substancial difference. There are many ways to go about making one, and with today’s big data, it becomes increasingly important to use more and more efficient sorting algorithms to sift through the data. <br><br> Here I will code and review some of the best known sorting algorithms. For the purpose of simplicity and explaination, it will be written in Python, which is a great language to learn coding with.</p> <br> <a class="blue-link" href="https://github.com/ajouhari/algorithms"><span>View code in GitHub</span>></a></div> </article> </main> <footer> <article class="flex"><div class="navigation"><h2>Find us:</h2> <nav class="flex"><li class=""><a href="https://www.linkedin.com/in/abdulrahman-jouhari/">Linkedin</a></li><li class=""><a href="https://stackoverflow.com/users/13521143/abdulrahman-jouhari">Stack Overflow</a></li><li class=""><a href="https://github.com/ajouhari">GitHub</a></li> </nav></div><div class="navigation"><h2>Quick links:</h2> <nav class="flex"><li class=""><a href="/">Home</a></li><li class=""><a href="/about">About</a></li><li class=""><a href="/algorithms">Algorithms</a></li><li class=""><a href="/web-design">Web Design</a></li><li class=""><a href="/stumble">Games</a></li> </nav></div><div class="contact"><h2>Contact:</h2><p>For any inquires, recommendations, or bug reports, please contact the email listed below. I will try to reply within a reasonable amount of time. The site is under construction and more projects are being worked on. Happy Coding :)<br><br> Inquires: info&#64;ajouhari.com <br> Support: support&#64;ajouhari.com</p></div> </article><div class="bottom-hr"><hr></div><div class="copyright"><p>Copyright © 2020 AJouhari</p></div> </footer> <script src="./assets/js/all.js"></script> </body></html>
+<!-- Author: Abdulrahman Jouhari -->
+<!-- Project: AJouhari Personal Website -->
+<!-- Date: July 26th, 2020 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abdulrahman Jouhari Algorithms">
+    <meta name="keywords" content="Abdulrahman Jouhari, Algorithms">
+    <meta name="author" content="Abdulrahman Jouhari">
+    <title>Algorithms - AJouhari</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://resources.ajouhari.com/images/logos/logo-main.png" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <!-- Top navigation bar -->
+        <div class="top-navigation">
+            <div class="burger-container">
+                <div id="burger">
+                    <div class="bar topBar"></div>
+                    <div class="bar btmBar"></div>
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a href="/">Home</a></li>
+                <li class="menu-item"><a href="/about.html">About</a></li>
+                <li class="menu-item"><a href="/algorithms.html">Algorithms</a></li>
+                <li class="menu-item"><a href="/web-design.html">Web Design</a></li>
+                <li class="menu-item"><a href="/stumble.html">Games</a></li>
+                <div class="contact">
+                    <li class="menu-item address">Contact:</li>
+                    <li class="menu-item address">Inquires: info&#64;ajouhari.com</li>
+                    <li class="menu-item address">Support: support&#64;ajouhari.com</li>
+                </div>
+            </ul>
+        </div>
+        <div class="row-listed-navigation">
+            <a href="/"><img src="https://resources.ajouhari.com/images/logos/logo-white.png" alt="ajouhari logo"></a>
+            <ul class="row-menu">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/about.html">About</a></li>
+                <li class=""><a href="/algorithms.html">Algorithms</a></li>
+                <li class=""><a href="/web-design.html">Web Design</a></li>
+                <li class=""><a href="/stumble.html">Games</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <!-- Banner -->
+        <section class="banner short">
+            <article class="text short">
+                <h1>Algorithms</h1>
+            </article>
+            <div class="letters-animation">
+                <ul class="letters">
+                    <li>a</li>
+                    <li>l</li>
+                    <li>g</li>
+                    <li>o</li>
+                    <li>r</li>
+                    <li>i</li>
+                </ul>
+            </div>
+        </section>
+        <!-- General algorithms article -->
+        <article class="main hidden">
+            <div class="icon">
+                <img src="https://resources.ajouhari.com/images/icons/gears.svg" alt="three gears" height="300px" width="300px">
+            </div>
+            <div class="info">
+                <h1>General algorithms</h1>
+                <p>There's a whole host of simple tasks that can be done more efficiently by algorithms, saving people
+                    much time and effort. Here I have documented a wide array of algorithms, of varying complexity and
+                    purposes.
+                    <br><br>
+                    Most of the algorithms displayed are in Python; however, moving forward, many of the algorithms will
+                    be written in C++ as it has a runtime advantage. Keeping best practices in mind, I always aim to
+                    write my code to be simple, well-documented, and with the fastest runtime possible.</p>
+                <br>
+                <a class="blue-link" href="https://github.com/ajouhari/algorithms/tree/master/python-general"><span>View
+                        code in GitHub</span>></a>
+            </div>
+        </article>
+        <!-- Search algorithms article -->
+        <article class="main inverted hidden">
+            <div class="icon">
+                <img src="https://resources.ajouhari.com/images/icons/nodes.svg" alt="interconnected nodes flowgraph" height="300px" width="300px">
+            </div>
+            <div class="info">
+                <h1>Search algorithms</h1>
+                <p>Search algorithms have two primary function: to find if a path exists between two locations, and if
+                    so, to find the shortest path between them. Here I will code and review multiple search algorithms,
+                    from a brute-force method, to a well-designed a-star search algorithm.
+                    <br><br>
+                    As trivial as they may seem looking from the outside, the inner working of a search algorithm is a
+                    complex and highly important mechanism of the internet. I try my best to understand and then explain
+                    the multiple ways to implement it and the advantages that each may serve.</p>
+                <br>
+                <a class="blue-link"
+                    href="https://github.com/ajouhari/algorithms/tree/master/search-algorithms"><span>View code in
+                        GitHub</span>></a>
+            </div>
+        </article>
+        <!-- Sort algorithms article -->
+        <article class="main hidden">
+            <div class="icon">
+                <img src="https://resources.ajouhari.com/images/icons/sorted-bars.svg" alt="sorted-bars" height="300px" width="300px">
+            </div>
+            <div class="info">
+                <h1>Sort algorithms</h1>
+                <p>From databases to e-commerce sites, sorting engines play a cruical role that makes a substancial
+                    difference. There are many ways to go about making one, and with today’s big data, it becomes
+                    increasingly important to use more and more efficient sorting algorithms to sift through the data.
+                    <br><br>
+                    Here I will code and review some of the best known sorting algorithms. For the purpose of simplicity
+                    and explaination, it will be written in Python, which is a great language to learn coding with.</p>
+                <br>
+                <a class="blue-link" href="https://github.com/ajouhari/algorithms"><span>View code in GitHub</span>></a>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <!-- Footer navigation -->
+        <article class="flex">
+            <div class="navigation">
+                <h2>Find us:</h2>
+                <nav class="flex">
+                    <li class=""><a href="https://www.linkedin.com/in/abdulrahman-jouhari/">Linkedin</a></li>
+                    <li class=""><a href="https://stackoverflow.com/users/13521143/abdulrahman-jouhari">Stack
+                            Overflow</a></li>
+                    <li class=""><a href="https://github.com/ajouhari">GitHub</a></li>
+                </nav>
+            </div>
+            <!-- Footer navigation -->
+            <div class="navigation">
+                <h2>Quick links:</h2>
+                <nav class="flex">
+                    <li class=""><a href="/">Home</a></li>
+                    <li class=""><a href="/about.html">About</a></li>
+                    <li class=""><a href="/algorithms.html">Algorithms</a></li>
+                    <li class=""><a href="/web-design.html">Web Design</a></li>
+                    <li class=""><a href="/stumble.html">Games</a></li>
+                </nav>
+            </div>
+            <!-- Footer contact information -->
+            <div class="contact">
+                <h2>Contact:</h2>
+                <p>For any inquires, recommendations, or bug reports, please contact the email listed below. I will try
+                    to reply within a reasonable amount of time. The site is under construction and more projects are
+                    being worked on. Happy Coding :)<br><br>
+                    Inquires: info&#64;ajouhari.com <br>
+                    Support: support&#64;ajouhari.com</p>
+            </div>
+        </article>
+        <!-- Copyright Notice -->
+        <div class="bottom-hr">
+            <hr>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2020 AJouhari</p>
+        </div>
+    </footer>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
