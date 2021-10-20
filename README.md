@@ -1,5 +1,5 @@
 # About
-Portfolio website displaying my projects, goals, and a method of contact.
+Outdated portfolio website displaying my former projects, goals, and a method of contact.
 
 # Installation
 Download entire folder. Only a browser is required, but Visual Studio Code and the extention Live Server would lead to a better experience viewing the site.
