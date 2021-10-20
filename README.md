@@ -25,4 +25,4 @@ MIT License
 Abdulrahman Jouhari
 
 # Contributers
-Although I wrote much of the code, some features, such as the dropdown menu, lazy loading, and background letter waterfall effect, I had to learn from youtube and stack overflow. I glossed over many youtube and stack overflow posts, and would like to thank everyone who offers their knowledge and advice for the rest to learn from.
+Although I had produced most of the code, some features, such as the dropdown menu, lazy loading, and background letter waterfall effect were learnt from youtube and stack overflow. I would like to thank everyone who offered their knowledge and advice for the rest to learn from.
